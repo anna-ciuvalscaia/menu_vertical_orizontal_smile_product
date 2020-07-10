@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Navbar</title>
+    <style>
+        /*reset CSS*/
+        body {
+            margin: 0;
+            font-family: Arial;
+            text-align: center;
+            }
+            /*bara de meniu orizontala*/
+        nav {
+            background-color: #C8C8C8;
+            padding: 10px;
+            }
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            }
+        a {
+            text-decoration: none;
+            color: white;
+            padding: 10px;
+            border-right: 1px solid white;
+            
+            }
+            li {
+                display: inline;
+            }
+            img {
+                width: 18px;
+                }
+            .no-border {border: none;}
+            input {margin-left: 10px; height: 30px; border-radius: 20px; border: none;}
+            #search {background-color: #fff; border-radius: 20px; padding:7px;}
+            li a:hover {background-color: rgb(85, 82, 82);} 
+            /*product*/
+            #notebook {width: 400px;}
+            hr {width: 400px;}
+            h1 {margin-bottom: 0;}
+            p {margin-top: 5px;}
+            .gray {color: #bbbbbb}
+            button {
+                background-color: #E10063;
+                padding: 10px 40px 10px 40px;
+                border-radius: 20px;
+                border: none;
+            }
+            .color {
+                width: 50px;
+                height: 50px;
+                padding: 5px;
+                border: 10px double white;
+                border-radius: 40px;
+            }
+            .blue {background-color: blue;}
+            .silver {background-color: silver;}
+            .black {background-color: black;}
+        
+           
+    </style>
+
+</head>
+<body>
+   <nav>
+       <form action="#">
+       <ul>
+          <li><a href="menu_vertical.html"><img src="images/Very-Basic-Menu-icon.png" alt="menu vertical"> MENU vertical</a></li>
+           <li><a href="#"><img src="images/Ecommerce-Shopping-Basket-icon.png" alt="cos"> Produse</a></li>
+           <li><a href="#"><img src="images/Ecommerce-Delivery-icon.png" alt="livrare"> Livrare</a></li>
+           <li><a href="#"><img src="images/Phone-2-icon.png" alt="contact"> Contacte</a></li>
+          
+           <li>
+               <input type="search" placeholder=" Cautare...">
+               <button id="search" type="submit">&#128269;</button>         
+           </li>
+            
+           <li><a href="user.html" class="no-border"><img src="images/Users-Group-icon.png" alt="user"> Login</a></li>
+       </ul>
+      </form> 
+   </nav>
+    
+<article>
+    <h1>Lenovo IdeaPad S145-15API</h1>
+    <p class="gray">Ryzen 3 3200U/ 4 GB/ 1 TB HDD/ VGA Integrated/ Gray</p>
+    <img id="notebook" src="images/lenovo_s145_15api_gray1.png" alt="notebook">
+<hr>
+
+<h3 class="gray">
+    Culori
+</h3>
+<button class="color blue"></button>
+<button class="color silver"></button>
+<button class="color black"></button>
+
+<div>
+    <h2><del class="gray">9300 lei</del> 8900 lei</h2>
+</div>
+<button>CUMPARA</button>
+
+</article>
+
+</body>
+</html>

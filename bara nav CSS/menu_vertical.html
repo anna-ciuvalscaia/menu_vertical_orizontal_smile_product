@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+   
+    <title>Meniu vertical</title>
+    <style>
+        body {
+            background-color: #333333;
+            font-family: Arial;
+        }
+        #menu {
+            background-color: #777777;
+            width: 200px;
+            text-align: center;
+        }
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        li {
+            padding: 20px;
+            border-bottom: 1px solid whitesmoke;
+        }
+        .no-border {border: none;}
+        a {
+            text-decoration: none;
+            color: white;
+        }
+        li a:active {
+            color:wheat;
+        }
+        li a:hover {
+            background-color: rgb(94, 122, 150); padding: 15px;
+            border-left: 1px solid wheat;
+        }
+    </style>
+</head>
+<body>
+    <nav id="menu">
+<ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Produse</a></li>
+    <li><a href="#">Servicii</a></li>
+    <li><a href="#">Livrare</a></li>
+    <li class="no-border"><a href="#">Contacte</a></li>
+</ul>
+    </nav>
+</body>
+</html>
